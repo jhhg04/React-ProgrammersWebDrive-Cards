@@ -14,9 +14,11 @@ const Home = () => {
     setPosts(data);
   };
   return (
-    <div>
-      <Card details={posts} />
-    </div>
+    <>
+      {posts.map((value, index) => (
+        <Card value={value} index={index} />
+      ))}
+    </>
   );
 };
 

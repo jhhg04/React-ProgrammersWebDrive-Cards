@@ -1,39 +1,28 @@
-body{
+body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card{
-  border: 1px solid black;
-  box-shadow: 0 0 5px black;
-  width: 200px;
+.card {
+  width: 40%;
   margin: 20px;
+  display: flex;
 }
 
-.card-img{
-  width: 199px;
+.card-title {
+  font-weight: bold;
 }
 
-.card-title,
-.card-description,
-.container
-{
-  text-align: center;
-  margin: 0;
-  padding: 10px;
+.card-body {
+  padding-left: 20px;
 }
 
-.card-title{
-font-weight: bold;
-font-size: 14px;
-}
-
-.card-description{
+.card-description {
   font-size: 12px;
 }
 
-.btn-read{
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
+.btn-read {
+  background-color: white;
+  border-color: black;
+  padding: 7px 20px;
 }
